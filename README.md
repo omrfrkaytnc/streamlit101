@@ -53,33 +53,33 @@ streamlit run streamlit101.py
 
 
 ## Features
-##1. Text Display
+## 1. Text Display
 The application uses various Streamlit components to display text. These components support a wide range of text formats, from simple text to formatted text.
 
-##2. Multimedia Display
+## 2. Multimedia Display
 Users can display multimedia content such as images, videos, and audio files.
 
-##3. User Interaction
+## 3. User Interaction
 The application provides various interactive components to collect user data:
 
-##Buttons
+## Buttons
 Text Input Fields
 Checkboxes
 Radio Buttons
 Sliders
 File Uploader
-##4. Interface Layout
+## 4. Interface Layout
 The application allows controlling the page layout using sidebars, tabs, and columns. This enables customizing the layout to improve user experience.
 
-##5. Program Flow
+## 5. Program Flow
 The application includes functionalities such as saving user information and performing calculations based on certain conditions. For example, user information is taken and saved to a file in JSON format.
 
-##6. Session State Management
+## 6. Session State Management
 The application manages session state to store and access specific information throughout the session. This is used to retain user preferences and status.
 
-##Project Structure
+## Project Structure
 
-##Streamlit101/
+## Streamlit101/
 │
 ├── 1-image_sample.png         # Sample image file
 ├── 2-video_sample.mp4         # Sample video file
@@ -90,13 +90,21 @@ The application manages session state to store and access specific information t
 Contributing
 Contributions are welcome! Please create an issue first to discuss what you would like to change.
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-##Streamlit101
+## Streamlit101
 Bu depo, hızlı prototipleme ve çeşitli Streamlit özelliklerini öğrenmek için bir eğitim uygulaması içermektedir. Uygulama, Streamlit kütüphanesinin temel ve ileri düzey işlevlerini göstererek kullanıcıların kendi veri odaklı web uygulamalarını geliştirmelerine yardımcı olur.
 
-##İçindekiler
+## İçindekiler
+
+- [Proje Hakkında](#proje-hakkında)
+- [Kurulum](#kurulum)
+- [Kullanım](#kullanım)
+- [Özellikler](#özellikler)
+- [Proje Yapısı](#proje-yapısı)
+- [Katkıda Bulunma](#katkıda-bulunma)
+- [Lisans](#lisans)
 Proje Hakkında
 Kurulum
 Kullanım
@@ -120,26 +128,21 @@ Projeyi çalıştırmak için bilgisayarınızda Python yüklü olmalıdır. Pro
 
 Depoyu klonlayın:
 
-sh
-Kodu kopyala
 git clone https://github.com/yourusername/Streamlit101.git
 cd Streamlit101
 Bir sanal ortam oluşturun:
 
-sh
-Kodu kopyala
+
 python -m venv venv
 source venv/bin/activate  # Windows için `venv\Scripts\activate`
 Gerekli paketleri yükleyin:
 
-sh
-Kodu kopyala
+
 pip install -r requirements.txt
 Kullanım
 Streamlit uygulamasını çalıştırmak için şu komutu çalıştırın:
 
-sh
-Kodu kopyala
+
 streamlit run streamlit101.py
 Bu komut uygulamayı başlatacak ve http://localhost:8501 adresinden web tarayıcınızda görüntüleyebilirsiniz.
 
@@ -169,8 +172,7 @@ Uygulama, kullanıcı bilgilerini kaydetme ve belirli koşullara göre hesaplama
 Uygulama, oturum durumu yönetimi ile kullanıcının belirli bilgilerini saklar ve bu bilgileri oturum boyunca erişilebilir kılar. Bu, kullanıcının tercihlerini ve durumunu saklamak için kullanılır.
 
 Proje Yapısı
-bash
-Kodu kopyala
+
 Streamlit101/
 │
 ├── 1-image_sample.png         # Örnek resim dosyası
