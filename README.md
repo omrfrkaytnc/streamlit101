@@ -50,35 +50,36 @@ To run the project, you need to have Python installed on your computer. Follow t
 To run the Streamlit application, use the following command:
 ```sh
 streamlit run streamlit101.py
-Features
-1. Text Display
+
+
+## Features
+##1. Text Display
 The application uses various Streamlit components to display text. These components support a wide range of text formats, from simple text to formatted text.
 
-2. Multimedia Display
+##2. Multimedia Display
 Users can display multimedia content such as images, videos, and audio files.
 
-3. User Interaction
+##3. User Interaction
 The application provides various interactive components to collect user data:
 
-Buttons
+##Buttons
 Text Input Fields
 Checkboxes
 Radio Buttons
 Sliders
 File Uploader
-4. Interface Layout
+##4. Interface Layout
 The application allows controlling the page layout using sidebars, tabs, and columns. This enables customizing the layout to improve user experience.
 
-5. Program Flow
+##5. Program Flow
 The application includes functionalities such as saving user information and performing calculations based on certain conditions. For example, user information is taken and saved to a file in JSON format.
 
-6. Session State Management
+##6. Session State Management
 The application manages session state to store and access specific information throughout the session. This is used to retain user preferences and status.
 
-Project Structure
-bash
-Kodu kopyala
-Streamlit101/
+##Project Structure
+
+##Streamlit101/
 │
 ├── 1-image_sample.png         # Sample image file
 ├── 2-video_sample.mp4         # Sample video file
@@ -89,13 +90,13 @@ Streamlit101/
 Contributing
 Contributions are welcome! Please create an issue first to discuss what you would like to change.
 
-License
+##License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Streamlit101
+##Streamlit101
 Bu depo, hızlı prototipleme ve çeşitli Streamlit özelliklerini öğrenmek için bir eğitim uygulaması içermektedir. Uygulama, Streamlit kütüphanesinin temel ve ileri düzey işlevlerini göstererek kullanıcıların kendi veri odaklı web uygulamalarını geliştirmelerine yardımcı olur.
 
-İçindekiler
+##İçindekiler
 Proje Hakkında
 Kurulum
 Kullanım
