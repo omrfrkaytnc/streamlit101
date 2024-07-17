@@ -11,33 +11,6 @@ This Streamlit app reads data from a CSV file and displays it in a table. Users 
 - **Dynamic Table Display:** The number of rows shown in the table can be increased or decreased.
 - **Session State Management:** Maintains the state of the row count between interactions using Streamlit's session state.
 
-## Installation
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/your-username/streamlit-session-state-example.git
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd streamlit-session-state-example
-    ```
-
-3. Ensure `data.csv` is in the project directory.
-
-4. Install Streamlit if not already installed:
-
-    ```bash
-    pip install streamlit
-    ```
-
-5. Run the app:
-
-    ```bash
-    streamlit run app.py
-    ```
 
 ## Code Summary
 
@@ -50,4 +23,35 @@ This Streamlit app reads data from a CSV file and displays it in a table. Users 
 ## License
 
 This project is licensed under the MIT License.
+
+
+
+
+# Streamlit Oturum Durumu Örneği
+
+Bu depo, Streamlit'in oturum durumu mekanizmasının pratik kullanımını göstermektedir.
+
+## Genel Bakış
+
+Bu Streamlit uygulaması bir CSV dosyasından veri okur ve bir tabloda görüntüler. Kullanıcılar, "Artır" ve "Düşür" düğmelerini kullanarak görüntülenen satır sayısını dinamik olarak ayarlayabilir.
+
+## Özellikler
+
+- **Dinamik Tablo Görüntüleme:** Tabloda gösterilen satır sayısı artırılabilir veya azaltılabilir.
+- **Oturum Durumu Yönetimi:** Streamlit'in oturum durumu kullanılarak satır sayısının durumu etkileşimler arasında korunur.
+
+
+    ```
+
+## Kod Özeti
+
+- **Oturum Durumu Başlatma:** Satır sayısını 10'a başlatır eğer daha önce ayarlanmamışsa.
+- **Veri Yükleme:** `data.csv` dosyasından veri okur.
+- **Tablo Görüntüleme:** Mevcut satır sayısına göre dataframe'in üst satırlarını gösterir.
+- **Düğmeler:** Satır sayısını ayarlayan "Artır" ve "Düşür" düğmeleri.
+- **Durum Görüntüleme:** Mevcut satır sayısını gösterir.
+
+## Lisans
+
+Bu proje MIT Lisansı altında lisanslanmıştır.
 
